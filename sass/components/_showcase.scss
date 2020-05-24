@@ -1,0 +1,25 @@
+.showcase {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50rem;
+    }
+
+    &__text {
+        text-align: center;
+    }
+}
+
+.showcase__item {
+    &:not(:last-child) {
+        margin-right: 3rem;
+    }
+
+    @media only screen and (max-width: $bp-largest) {
+        // margin-bottom: 3rem;
+    }
+}
