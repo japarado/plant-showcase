@@ -2,10 +2,21 @@
 	text-align: center;
 }
 
-.u-margin-bottom-big {
-	margin-bottom: 8rem;
+.u-margin-bottom {
+	&--large {
+		margin-bottom: 8rem;
+	}
+
+	&--medium {
+		margin-bottom: 4rem;
+	}
+
+	&--small {
+		margin-bottom: 2rem;
+	}
 }
 
-.u-margin-bottom-medium {
-	margin-bottom: 4rem;
+.u-responsive-image {
+	max-width: 100%;
+	height: auto;
 }
