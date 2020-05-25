@@ -39,6 +39,10 @@ p {
     display: flex;
     flex-direction: column;
     flex-basis: 50rem; }
+  .showcase__image {
+    width: 50rem;
+    height: 65rem;
+    object-fit: cover; }
   .showcase__text {
     text-align: center; }
 

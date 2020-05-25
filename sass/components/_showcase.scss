@@ -9,6 +9,12 @@
         flex-basis: 50rem;
     }
 
+	&__image {
+		width: 50rem;
+		height: 65rem;
+		object-fit: cover;
+	}
+
     &__text {
         text-align: center;
     }
